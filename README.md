@@ -2,6 +2,15 @@
 
 XML unofficial Toga layout parser
 
+
+### Installation
+
+[PyPi](https://pypi.org/project/togax-xml-layout-plugin/)
+
+```
+pip install togax-xml-layout-plugin
+```
+
 ### Reason
 
 Give developers the ability to define layouts in XML outside code. Also giving the final users the possibility to customize app layout without changing code.
@@ -168,7 +177,7 @@ app.py
 
 ```python
 import toga
-from toga.layout import parse_layout
+from togax_xml_layout import parse_layout
 
 class App(toga.App):
     def startup(self):
